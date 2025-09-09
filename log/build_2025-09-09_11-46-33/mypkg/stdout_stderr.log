@@ -1,0 +1,47 @@
+running egg_info
+creating ../../../build/mypkg/mypkg.egg-info
+writing ../../../build/mypkg/mypkg.egg-info/PKG-INFO
+writing dependency_links to ../../../build/mypkg/mypkg.egg-info/dependency_links.txt
+writing entry points to ../../../build/mypkg/mypkg.egg-info/entry_points.txt
+writing requirements to ../../../build/mypkg/mypkg.egg-info/requires.txt
+writing top-level names to ../../../build/mypkg/mypkg.egg-info/top_level.txt
+writing manifest file '../../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+reading manifest file '../../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+writing manifest file '../../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/Nada/ros2_ws/build/mypkg/build
+creating /home/Nada/ros2_ws/build/mypkg/build/lib
+creating /home/Nada/ros2_ws/build/mypkg/build/lib/mypkg
+copying mypkg/my_node.py -> /home/Nada/ros2_ws/build/mypkg/build/lib/mypkg
+copying mypkg/oop_node.py -> /home/Nada/ros2_ws/build/mypkg/build/lib/mypkg
+copying mypkg/publisher.py -> /home/Nada/ros2_ws/build/mypkg/build/lib/mypkg
+copying mypkg/sub.py -> /home/Nada/ros2_ws/build/mypkg/build/lib/mypkg
+copying mypkg/__init__.py -> /home/Nada/ros2_ws/build/mypkg/build/lib/mypkg
+running install
+running install_lib
+creating /home/Nada/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg
+copying /home/Nada/ros2_ws/build/mypkg/build/lib/mypkg/my_node.py -> /home/Nada/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg
+copying /home/Nada/ros2_ws/build/mypkg/build/lib/mypkg/oop_node.py -> /home/Nada/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg
+copying /home/Nada/ros2_ws/build/mypkg/build/lib/mypkg/publisher.py -> /home/Nada/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg
+copying /home/Nada/ros2_ws/build/mypkg/build/lib/mypkg/sub.py -> /home/Nada/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg
+copying /home/Nada/ros2_ws/build/mypkg/build/lib/mypkg/__init__.py -> /home/Nada/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg
+byte-compiling /home/Nada/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg/my_node.py to my_node.cpython-310.pyc
+byte-compiling /home/Nada/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg/oop_node.py to oop_node.cpython-310.pyc
+byte-compiling /home/Nada/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg/publisher.py to publisher.cpython-310.pyc
+byte-compiling /home/Nada/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg/sub.py to sub.cpython-310.pyc
+byte-compiling /home/Nada/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/Nada/ros2_ws/install/mypkg/share/ament_index
+creating /home/Nada/ros2_ws/install/mypkg/share/ament_index/resource_index
+creating /home/Nada/ros2_ws/install/mypkg/share/ament_index/resource_index/packages
+copying resource/mypkg -> /home/Nada/ros2_ws/install/mypkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/Nada/ros2_ws/install/mypkg/share/mypkg
+running install_egg_info
+Copying ../../../build/mypkg/mypkg.egg-info to /home/Nada/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing my_node script to /home/Nada/ros2_ws/install/mypkg/lib/mypkg
+Installing oop_node script to /home/Nada/ros2_ws/install/mypkg/lib/mypkg
+Installing publisher script to /home/Nada/ros2_ws/install/mypkg/lib/mypkg
+Installing sub script to /home/Nada/ros2_ws/install/mypkg/lib/mypkg
+writing list of installed files to '/home/Nada/ros2_ws/build/mypkg/install.log'

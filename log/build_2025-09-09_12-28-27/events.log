@@ -1,0 +1,119 @@
+[0.000000] (-) TimerEvent: {}
+[0.000866] (mypkg) JobQueued: {'identifier': 'mypkg', 'dependencies': OrderedDict()}
+[0.001611] (mypkg) JobStarted: {'identifier': 'mypkg'}
+[0.089092] (-) TimerEvent: {}
+[0.192494] (-) TimerEvent: {}
+[0.293745] (-) TimerEvent: {}
+[0.394186] (-) TimerEvent: {}
+[0.494674] (-) TimerEvent: {}
+[0.595083] (-) TimerEvent: {}
+[0.695514] (-) TimerEvent: {}
+[0.795937] (-) TimerEvent: {}
+[0.896299] (-) TimerEvent: {}
+[0.996810] (-) TimerEvent: {}
+[1.097306] (-) TimerEvent: {}
+[1.198554] (-) TimerEvent: {}
+[1.299532] (-) TimerEvent: {}
+[1.400111] (-) TimerEvent: {}
+[1.500720] (-) TimerEvent: {}
+[1.602536] (-) TimerEvent: {}
+[1.703158] (-) TimerEvent: {}
+[1.803703] (-) TimerEvent: {}
+[1.904201] (-) TimerEvent: {}
+[2.004815] (-) TimerEvent: {}
+[2.047955] (mypkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/mypkg', 'build', '--build-base', '/home/Nada/ros2_ws/build/mypkg/build', 'install', '--record', '/home/Nada/ros2_ws/build/mypkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/Nada/ros2_ws/ros2_ws/src/mypkg', 'env': {'HOSTNAME': 'docker-desktop', 'GIT_ASKPASS': '/vscode/vscode-server/bin/linux-x64/6f17636121051a53c88d3e605c491d22af2ba755/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/vscode/vscode-server/bin/linux-x64/6f17636121051a53c88d3e605c491d22af2ba755/bin/helpers/browser.sh', 'HOME': '/home/Nada', 'TERM_PROGRAM_VERSION': '1.103.2', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-7a150f2f-fc2c-4f0c-bade-f00b9d60971e.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/vscode-server/bin/linux-x64/6f17636121051a53c88d3e605c491d22af2ba755/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/vscode-server/bin/linux-x64/6f17636121051a53c88d3e605c491d22af2ba755/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/Nada/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'COLCON_PREFIX_PATH': '/home/Nada/ros2_ws/install', 'ROS_DISTRO': 'humble', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-267208cc-cfef-4f42-8b0c-3631880fd2c0.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/vscode/vscode-server/bin/linux-x64/6f17636121051a53c88d3e605c491d22af2ba755/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/Nada/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts:/home/Nada/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'REMOTE_CONTAINERS_SOCKETS': '[]', 'DISPLAY': ':1', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/Nada/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-f93c54b9e959c764.txt', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-ddfa286599.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/Nada/ros2_ws/install/mypkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/Nada/ros2_ws/build/mypkg', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/Nada/ros2_ws/build/mypkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/Nada/ros2_ws/install/mypkg/lib/python3.10/site-packages:/home/Nada/ros2_ws/install/mypkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[2.104936] (-) TimerEvent: {}
+[2.205685] (-) TimerEvent: {}
+[2.306893] (-) TimerEvent: {}
+[2.407902] (-) TimerEvent: {}
+[2.509403] (-) TimerEvent: {}
+[2.610610] (-) TimerEvent: {}
+[2.716892] (-) TimerEvent: {}
+[2.824131] (-) TimerEvent: {}
+[2.945021] (-) TimerEvent: {}
+[3.046383] (-) TimerEvent: {}
+[3.148730] (-) TimerEvent: {}
+[3.253114] (-) TimerEvent: {}
+[3.354162] (-) TimerEvent: {}
+[3.456046] (-) TimerEvent: {}
+[3.557082] (-) TimerEvent: {}
+[3.657894] (-) TimerEvent: {}
+[3.758819] (-) TimerEvent: {}
+[3.859615] (-) TimerEvent: {}
+[3.960676] (-) TimerEvent: {}
+[4.063286] (-) TimerEvent: {}
+[4.152052] (mypkg) StdoutLine: {'line': b'running egg_info\n'}
+[4.163482] (-) TimerEvent: {}
+[4.164917] (mypkg) StdoutLine: {'line': b'writing ../../../build/mypkg/mypkg.egg-info/PKG-INFO\n'}
+[4.219516] (mypkg) StdoutLine: {'line': b'writing dependency_links to ../../../build/mypkg/mypkg.egg-info/dependency_links.txt\n'}
+[4.263780] (-) TimerEvent: {}
+[4.300441] (mypkg) StdoutLine: {'line': b'writing entry points to ../../../build/mypkg/mypkg.egg-info/entry_points.txt\n'}
+[4.350237] (mypkg) StdoutLine: {'line': b'writing requirements to ../../../build/mypkg/mypkg.egg-info/requires.txt\n'}
+[4.364073] (-) TimerEvent: {}
+[4.380943] (mypkg) StdoutLine: {'line': b'writing top-level names to ../../../build/mypkg/mypkg.egg-info/top_level.txt\n'}
+[4.464362] (-) TimerEvent: {}
+[4.565461] (-) TimerEvent: {}
+[4.613948] (mypkg) StdoutLine: {'line': b"reading manifest file '../../../build/mypkg/mypkg.egg-info/SOURCES.txt'\n"}
+[4.665842] (-) TimerEvent: {}
+[4.768327] (-) TimerEvent: {}
+[4.871338] (-) TimerEvent: {}
+[4.972444] (-) TimerEvent: {}
+[5.073663] (-) TimerEvent: {}
+[5.176185] (-) TimerEvent: {}
+[5.271594] (mypkg) StdoutLine: {'line': b"writing manifest file '../../../build/mypkg/mypkg.egg-info/SOURCES.txt'\n"}
+[5.276411] (-) TimerEvent: {}
+[5.285964] (mypkg) StdoutLine: {'line': b'running build\n'}
+[5.293783] (mypkg) StdoutLine: {'line': b'running build_py\n'}
+[5.329369] (mypkg) StdoutLine: {'line': b'copying mypkg/client.py -> /home/Nada/ros2_ws/build/mypkg/build/lib/mypkg\n'}
+[5.376694] (-) TimerEvent: {}
+[5.425168] (mypkg) StdoutLine: {'line': b'copying mypkg/server.py -> /home/Nada/ros2_ws/build/mypkg/build/lib/mypkg\n'}
+[5.476833] (-) TimerEvent: {}
+[5.513525] (mypkg) StdoutLine: {'line': b'running install\n'}
+[5.515721] (mypkg) StdoutLine: {'line': b'running install_lib\n'}
+[5.576957] (-) TimerEvent: {}
+[5.647277] (mypkg) StdoutLine: {'line': b'copying /home/Nada/ros2_ws/build/mypkg/build/lib/mypkg/client.py -> /home/Nada/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg\n'}
+[5.677150] (-) TimerEvent: {}
+[5.777786] (-) TimerEvent: {}
+[5.797619] (mypkg) StdoutLine: {'line': b'copying /home/Nada/ros2_ws/build/mypkg/build/lib/mypkg/server.py -> /home/Nada/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg\n'}
+[5.857812] (mypkg) StdoutLine: {'line': b'byte-compiling /home/Nada/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg/client.py to client.cpython-310.pyc\n'}
+[5.877859] (-) TimerEvent: {}
+[5.973042] (mypkg) StdoutLine: {'line': b'byte-compiling /home/Nada/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg/server.py to server.cpython-310.pyc\n'}
+[5.977979] (-) TimerEvent: {}
+[6.078415] (-) TimerEvent: {}
+[6.181479] (-) TimerEvent: {}
+[6.286294] (-) TimerEvent: {}
+[6.393941] (-) TimerEvent: {}
+[6.450251] (mypkg) StdoutLine: {'line': b'running install_data\n'}
+[6.494085] (-) TimerEvent: {}
+[6.521254] (mypkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.594491] (-) TimerEvent: {}
+[6.615755] (mypkg) StdoutLine: {'line': b"removing '/home/Nada/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[6.694863] (-) TimerEvent: {}
+[6.801498] (-) TimerEvent: {}
+[6.907541] (-) TimerEvent: {}
+[7.009401] (-) TimerEvent: {}
+[7.035517] (mypkg) StdoutLine: {'line': b'Copying ../../../build/mypkg/mypkg.egg-info to /home/Nada/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg-0.0.0-py3.10.egg-info\n'}
+[7.109556] (-) TimerEvent: {}
+[7.210253] (-) TimerEvent: {}
+[7.311530] (-) TimerEvent: {}
+[7.412933] (-) TimerEvent: {}
+[7.513771] (-) TimerEvent: {}
+[7.597064] (mypkg) StdoutLine: {'line': b'running install_scripts\n'}
+[7.613862] (-) TimerEvent: {}
+[7.668863] (mypkg) StdoutLine: {'line': b'Installing client script to /home/Nada/ros2_ws/install/mypkg/lib/mypkg\n'}
+[7.679516] (mypkg) StdoutLine: {'line': b'Installing my_node script to /home/Nada/ros2_ws/install/mypkg/lib/mypkg\n'}
+[7.691216] (mypkg) StdoutLine: {'line': b'Installing oop_node script to /home/Nada/ros2_ws/install/mypkg/lib/mypkg\n'}
+[7.709213] (mypkg) StdoutLine: {'line': b'Installing publisher script to /home/Nada/ros2_ws/install/mypkg/lib/mypkg\n'}
+[7.713970] (-) TimerEvent: {}
+[7.743912] (mypkg) StdoutLine: {'line': b'Installing server script to /home/Nada/ros2_ws/install/mypkg/lib/mypkg\n'}
+[7.763103] (mypkg) StdoutLine: {'line': b'Installing sub script to /home/Nada/ros2_ws/install/mypkg/lib/mypkg\n'}
+[7.797142] (mypkg) StdoutLine: {'line': b"writing list of installed files to '/home/Nada/ros2_ws/build/mypkg/install.log'\n"}
+[7.814278] (-) TimerEvent: {}
+[7.825505] (mypkg) CommandEnded: {'returncode': 0}
+[7.914594] (-) TimerEvent: {}
+[8.016362] (-) TimerEvent: {}
+[8.117197] (-) TimerEvent: {}
+[8.219011] (-) TimerEvent: {}
+[8.319894] (-) TimerEvent: {}
+[8.351384] (mypkg) JobEnded: {'identifier': 'mypkg', 'rc': 0}
+[8.396524] (-) EventReactorShutdown: {}

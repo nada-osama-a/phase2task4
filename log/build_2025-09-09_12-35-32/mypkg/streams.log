@@ -1,0 +1,26 @@
+[2.618s] Invoking command in '/home/Nada/ros2_ws/ros2_ws/src/mypkg': PYTHONPATH=/home/Nada/ros2_ws/build/mypkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/Nada/ros2_ws/install/mypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/mypkg build --build-base /home/Nada/ros2_ws/build/mypkg/build install --record /home/Nada/ros2_ws/build/mypkg/install.log --single-version-externally-managed install_data
+[4.489s] running egg_info
+[4.497s] writing ../../../build/mypkg/mypkg.egg-info/PKG-INFO
+[4.518s] writing dependency_links to ../../../build/mypkg/mypkg.egg-info/dependency_links.txt
+[4.540s] writing entry points to ../../../build/mypkg/mypkg.egg-info/entry_points.txt
+[4.558s] writing requirements to ../../../build/mypkg/mypkg.egg-info/requires.txt
+[4.566s] writing top-level names to ../../../build/mypkg/mypkg.egg-info/top_level.txt
+[4.639s] reading manifest file '../../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[4.715s] writing manifest file '../../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[4.716s] running build
+[4.717s] running build_py
+[4.773s] running install
+[4.774s] running install_lib
+[5.556s] running install_data
+[5.637s] running install_egg_info
+[5.663s] removing '/home/Nada/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg-0.0.0-py3.10.egg-info' (and everything under it)
+[5.853s] Copying ../../../build/mypkg/mypkg.egg-info to /home/Nada/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg-0.0.0-py3.10.egg-info
+[6.361s] running install_scripts
+[6.462s] Installing client script to /home/Nada/ros2_ws/install/mypkg/lib/mypkg
+[6.509s] Installing my_node script to /home/Nada/ros2_ws/install/mypkg/lib/mypkg
+[6.532s] Installing oop_node script to /home/Nada/ros2_ws/install/mypkg/lib/mypkg
+[6.545s] Installing publisher script to /home/Nada/ros2_ws/install/mypkg/lib/mypkg
+[6.565s] Installing server script to /home/Nada/ros2_ws/install/mypkg/lib/mypkg
+[6.582s] Installing sub script to /home/Nada/ros2_ws/install/mypkg/lib/mypkg
+[6.603s] writing list of installed files to '/home/Nada/ros2_ws/build/mypkg/install.log'
+[6.663s] Invoked command in '/home/Nada/ros2_ws/ros2_ws/src/mypkg' returned '0': PYTHONPATH=/home/Nada/ros2_ws/build/mypkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/Nada/ros2_ws/install/mypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/mypkg build --build-base /home/Nada/ros2_ws/build/mypkg/build install --record /home/Nada/ros2_ws/build/mypkg/install.log --single-version-externally-managed install_data
