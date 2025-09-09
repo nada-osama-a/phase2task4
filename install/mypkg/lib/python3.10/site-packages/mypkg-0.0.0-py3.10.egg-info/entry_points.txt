@@ -1,8 +1,0 @@
-[console_scripts]
-client = mypkg.client:main
-my_node = mypkg.my_node:main
-oop_node = mypkg.oop_node:main
-publisher = mypkg.publisher:main
-server = mypkg.server:main
-sub = mypkg.sub:main
-
