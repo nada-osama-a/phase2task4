@@ -18,7 +18,7 @@ class MonitorNode(Node):
         self.hum_sub = self.create_subscription(RelativeHumidity, 'humidity', self.hum_callback, 10)
         self.pres_sub = self.create_subscription(FluidPressure, 'pressure', self.pres_callback, 10)
 
-        self.file = open("weather_readings.txt", "w", buffering=1)
+        self.file = open("weather_readings.txt", "a",buffering=1)
 
         self.create_timer(1.0, self.print_readings)
 
